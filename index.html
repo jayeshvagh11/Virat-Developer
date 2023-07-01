@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virat Real Estate</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+    /* css reset */
+    body {
+
+        font-family: 'Cinzel', serif;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/bg5.jpg");
+        background-blend-mode: color;
+        background-color: rgba(255, 255, 255, 0.304);
+        background-repeat: no-repeat;
+        background-size: 1500px 1000px;
+        color: white;
+    }
+
+    .left {
+        
+        background-color: rgb(0, 0, 0);
+        border: 1px solid rgba(255, 255, 255, 0.76);
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        left: 25px;
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+
+    .mid {
+        
+        /* display: block; */
+        border: 1px solid black;
+        background: honeydew;
+        width: 82%;
+        margin-right: 0px;
+        margin-left: 243px;
+        margin-top: 49px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        
+    }
+
+    .right {
+        
+        display: inline-block;
+        position: absolute;
+        top: 54px;
+        right: 15px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+       
+    }
+
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a{
+        text-decoration: none;
+        color: rgb(106 115 145);
+        padding: 20px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color:rgb(200 176 138);
+
+    }
+
+    .left img{
+     
+        width: 120px;
+        padding: 1opx 10px;
+    }
+
+    /* .btn{
+        margin: 3px 10px;
+        padding: 10px 35px;
+        border-radius: 10px;
+    } */
+
+    .btn1 {
+        font-family: 'Cinzel', serif;
+        color: black;
+        background-color: white;
+        margin: 3px 10px;
+        padding: 10px 35px;
+        border-radius: 10px;
+        
+       
+    }
+
+    .btn2 {
+        font-family: 'Cinzel', serif;
+        color: white;
+        background-color:black;
+        border-color: rgb(30, 0, 201);
+        margin: 3px 10px;
+        padding: 10px 35px;
+        border-radius: 10px;
+         
+    }
+
+    .btn3 {
+        font-family: 'Cinzel', serif;
+        color: white;
+        background-color:black;
+        border-color: white;
+        margin: 16px 51px;
+        padding: 9px 148px;
+        border-radius: 10px;
+
+    }
+
+    .btn1:hover {
+        color: rgb(80 94 153);
+        background-color: rgb(213 188 161);
+        cursor: pointer;
+    }
+
+    .btn2:hover {
+        color:  rgb(213 188 161);
+        background-color: rgb(80 94 153);
+        cursor: pointer;
+    }
+
+    .btn3:hover {
+        color: black;
+        background-color: white;
+        border-color: rgb(80 94 153);
+        cursor: pointer;
+    }
+
+    .container {
+        border: 3px solid rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.53);
+        display: inline-block;
+        width: 35%;
+        padding: 31px 24px;
+        margin: 103px 29px;
+        border-radius: 20px;
+
+
+    }
+
+    .form-group input{
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        border-color: black;
+        width: 83%;
+        padding: 7px 11px;
+        margin: 8px 25px;
+        top: 100px;
+        
+
+
+
+    }
+
+    .searchbar {
+        
+        display: inline-block;
+        width: 40%;
+        padding: 1px 3px ;
+        margin: 19px 18px;
+        position: absolute;
+        top: 441px;
+        right: 89px;
+
+    }
+
+
+    .searchbar input{
+        border: 2px solid black;
+        background-color: rgba(255, 255, 255, 0.523);
+        width: 80%;
+        font-family: 'Cinzel', serif;
+        font-weight: bolder;
+        text-align: left;
+        padding: 10px 10px;
+        margin: 10px 10px;
+    }
+
+    .slogan {
+       
+        color: black;
+        font-family: 'DM Serif Display', serif;
+        display: inline-block;
+        width: 40%;
+        font-size: 62px;
+        padding: 1px 3px ;
+        margin: 19px 18px;
+        position: absolute;
+        top: 200px;
+        right: 89px;
+       
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Mortgage</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn1">Login</button>
+            <button class="btn2">Sign up</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        ,<h1>Have any queries? </h1>
+        <h3>Get a free counselling session from our experts</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+              <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+               <input type="text" placeholder="Enter Your Contact Number">
+             </div>
+             <div class="form-group">
+                <input type="text" placeholder="Enter Your Email address">
+             </div>
+             <div class="form-group">
+                <input type="text" placeholder="Are you buyer or seller">
+             </div>
+             <div class="form-group">
+                <input type="text" placeholder="type of property">
+             </div><div class="form-group">
+                <input type="text" placeholder="Enter your queries">
+             </div><div class="form-group">
+                <input type="text" placeholder="Enter district, state and country">
+             </div>
+             <button class="btn3">submit</button>
+        </form>
+
+    </div>
+
+    <div class="slogan">
+        Find it. Tour it. Own it.
+    </div>
+
+    <div class="searchbar">
+        <input type="search" name="searchbat" placeholder="Search by Area, City, state or ZIP. . . . . . .">
+    </div>
+
+</body>
+
+</html>
